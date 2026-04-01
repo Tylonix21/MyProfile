@@ -14,12 +14,12 @@ body {
 
 /* Navbar */
 .navbar {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(0, 0, 0, 0.95);
     padding: 1rem 2rem;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    border-bottom: 2px solid #e0e0e0;
+    justify-content: right;
+    gap: 3rem;
+    border-bottom: 2px solid #696969;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,15 +28,15 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: 500;
     padding: 0.5rem 0;
     transition: 0.3s;
 }
 
 .navbar a:hover {
-    color: #0077b6;
-    border-bottom: 2px solid #0077b6;
+    color: #717374;
+    border-bottom: 2px solid #00a6ff;
 }
 
 /* Card */
