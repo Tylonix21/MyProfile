@@ -17,8 +17,8 @@ body {
     background: rgba(0, 0, 0, 0.95);
     padding: 1rem 2rem;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 2px solid #696969;
     position: fixed;
     top: 0;
@@ -26,16 +26,26 @@ body {
     z-index: 100;
 }
 
-.navbar a {
+.navbar .name {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     font-weight: 500;
-    padding: 0.5rem 0;
     transition: 0.3s;
 }
 
-.navbar a:hover {
-    color: #717374;
+.nav-links a:hover {
+    color: #00a6ff;
     border-bottom: 2px solid #00a6ff;
 }
 
