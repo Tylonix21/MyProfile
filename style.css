@@ -146,8 +146,8 @@ hr {
 }
 
 .redbtn {
-    background: #ff0000;
-    color: white;
+    background: #ffffff;
+    color: rgb(255, 55, 55);
 }
 .image-container {
     display: flex;
