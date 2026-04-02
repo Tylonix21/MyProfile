@@ -99,6 +99,19 @@ hr {
     text-align: center;
 }
 
+.redbtn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    transition: 0.3s;
+    color: #7e0a0a;
+    background: transparent;
+    font-size: 1.3rem;
+}
+.redbtn:hover {
+    color: rgb(255, 0, 0);
+}
+
 .profile-image {
     width: 200px;           /* or any desired size */
     height: 200px;          /* same as width to keep it circular */
@@ -151,18 +164,7 @@ hr {
     color: white;
 }
 
-.redbtn {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 2rem;
-    transition: 0.3s;
-    color: #7e0a0a;
-    background: transparent;
-    font-size: 1.3rem;
-}
-.redbtn:hover {
-    color: rgb(255, 0, 0);
-}
+
 
 .image-container {
     display: flex;
