@@ -80,6 +80,11 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;    
+}
 .tagline {
     font-size: 1.2rem;
     color: #555;
@@ -173,15 +178,17 @@ h1 {
 .resume-image img {
     max-width: 100%;
     height: auto;
+    object-fit: cover; 
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .resume-name {
     text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.5rem;    
+    color: #646464;
+    font-weight: 400;
+    font-size: 1.5rem;  
+    margin: 2rem;  
 }
 /* Right box – resume card */
 .resume-card {
