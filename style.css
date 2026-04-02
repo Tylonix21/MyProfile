@@ -17,7 +17,7 @@ body {
 h1, h2, h3 {
     color: #646464;
     font-weight: 300;
-    margin-top: 1.5rem;    /* space above each heading (except first) */
+    margin-top: 2.5rem;    /* space above each heading (except first) */
     margin-bottom: 0.5rem; /* space between heading and hr */
 }
 
@@ -27,7 +27,7 @@ h1, h2, h3 {
 
 hr {
     border: none;
-    height: 2px;
+    height: 1px;
     background-color: #8b8b8b;
     margin: 0.1rem 0 0.1rem 0;
 }
