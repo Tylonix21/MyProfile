@@ -107,6 +107,7 @@ hr {
     color: #7e0a0a;
     background: transparent;
     font-size: 1.3rem;
+    margin-bottom: 2rem;
 }
 .redbtn:hover {
     color: rgb(255, 0, 0);
