@@ -7,8 +7,6 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    margin-top: 1rem;    /* space above each heading (except first) */
-    margin-bottom: 1rem; /* space between heading and hr */
     color: #8b8b8b;
     background: url('images/background.jpg') no-repeat center center/cover;
     min-height: 100vh;
@@ -211,7 +209,10 @@ hr {
     box-shadow: 0 20px 35px rgb(255, 255, 255);
     text-align: left;         /* text left‑aligned for resume */
 }
-
+.resume-card p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
 /* Optional: if you want equal width, set both to flex: 1 */
 /* .resume-image, .resume-card { flex: 1; } */
 
