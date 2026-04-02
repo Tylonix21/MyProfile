@@ -16,7 +16,7 @@ body {
 
 h1, h2, h3 {
     color: #646464;
-    font-weight: 270;
+    font-weight: 300;
     margin-top: 1.5rem;    /* space above each heading (except first) */
     margin-bottom: 0.5rem; /* space between heading and hr */
 }
@@ -29,7 +29,7 @@ hr {
     border: none;
     height: 2px;
     background-color: #8b8b8b;
-    margin: 0.2rem 0 0.5rem 0;
+    margin: 0.2rem 0 0.2rem 0;
 }
 
 /* Navbar */
