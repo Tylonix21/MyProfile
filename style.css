@@ -19,6 +19,10 @@ h1, h2, h3, .navbar a, .btn {
     color: #646464;
 }
 
+h2 {
+    margin-top: 1.5rem;    /* space above each heading (except first) */
+    margin-bottom: 0.5rem; /* space between heading and hr */
+}
 hr {
     border: none;
     height: 2px;
