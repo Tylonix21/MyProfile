@@ -182,6 +182,7 @@ hr {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 1rem;
+
 }
 
 .description {
@@ -239,12 +240,13 @@ hr {
     }
     
     .description {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     
     .redbtn {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         padding: 0.4rem 0.8rem;
+        text-align: center;
     }
     
     .links a {
