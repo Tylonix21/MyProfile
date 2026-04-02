@@ -100,10 +100,9 @@ hr {
 }
 
 .profile-image {
-    width: 100%;
-    max-width: 250px;
-    aspect-ratio: 1 / 1;    /* keeps it square */
-    object-fit: cover;
+    width: 200px;           /* or any desired size */
+    height: 200px;          /* same as width to keep it circular */
+    object-fit: cover;      /* ensures the image fills the circle without distortion */
     border-radius: 50%;
 }
 .tagline {
