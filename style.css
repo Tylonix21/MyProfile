@@ -153,7 +153,7 @@ hr {
     gap: 2rem;                /* space between the boxes */
     width: 100%;              /* full width of parent */
     max-width: 100%;        /* optional: limits on very large screens */
-    margin: 72px auto 2rem;  /* clears fixed navbar */
+    margin: 70px auto 2rem;  /* clears fixed navbar */
     padding: 0 2rem;          /* adds some breathing room on sides */
     box-sizing: border-box;
     border: 2px solid red;
