@@ -162,7 +162,7 @@ h1 {
     flex: 1;                  /* takes 1 share of available space */
     background: rgba(255, 255, 255, 0.95);
     border-radius: 1rem;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 35px rgb(255, 255, 255);
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -177,6 +177,12 @@ h1 {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+.resume-name {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;    
+}
 /* Right box – resume card */
 .resume-card {
     flex: 2;                  /* takes 2 shares of available space (twice as wide as image) */
@@ -198,6 +204,6 @@ h1 {
         padding: 0 1rem;
     }
     .resume-image, .resume-card {
-        width: 100%;
+        width: 90%;
     }
 }
