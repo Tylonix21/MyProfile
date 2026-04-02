@@ -28,8 +28,8 @@ h1, h2, h3 {
 hr {
     border: none;
     height: 2px;
-    background-color: #646464;
-    margin: 0.2rem 0 1rem 0;
+    background-color: #8b8b8b;
+    margin: 0.2rem 0 0.5rem 0;
 }
 
 /* Navbar */
