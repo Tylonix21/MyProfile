@@ -159,6 +159,7 @@ hr {
     border: 2px solid red;
     background: red;
     height: 700px;   /* fixed height – content may overflow */
+    line-height: 0;
 }
 
 .image-container img {
@@ -169,6 +170,36 @@ hr {
     margin: 0;
     padding: 0;
     display: block;
+}
+
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0;
+    margin: 120px auto 2rem; /* clear fixed navbar */
+    max-width: 1200px;
+    width: 90%;
+}
+
+.gallery-grid a {
+    display: block;
+    line-height: 0; /* removes extra space below images */
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures images fill their grid cells */
+    aspect-ratio: 1/1; /* maintains square aspect ratio */
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.02); /* slight zoom on hover */
+    opacity: 0.9; /* slight fade on hover */
 }
 
 /* Responsive */
