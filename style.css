@@ -120,7 +120,8 @@ hr {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    display: inline-block;
+    display: block;
+    text-align: center;   /* keeps button text centered */
 }
 .tagline {
     font-size: 1.2rem;
