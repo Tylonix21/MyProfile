@@ -20,6 +20,7 @@ h1, h2, h3, .navbar a, .btn {
 }
 
 h2 {
+    font-weight: 100;
     margin-top: 1.5rem;    /* space above each heading (except first) */
     margin-bottom: 0.5rem; /* space between heading and hr */
 }
@@ -30,9 +31,7 @@ hr {
     margin: 0.5rem 0 1rem 0;
 }
 
-.space {
-    margin-top: 1rem;
-}
+
 /* Navbar */
 .navbar {
     background: rgba(0, 0, 0, 0.95);
