@@ -144,52 +144,56 @@ h1 {
 
 /* --------------Resume----------------*/
 
-.resume-container {
-    display: flex;
-    flex-wrap: wrap;          /* allows stacking on small screens */
-    justify-content: center;
-    align-items: flex-start;  /* align tops */
-    gap: 10rem;                /* space between image and card */
-    max-width: 2200px;
-    margin: 120px auto 2rem;  /* same top margin as before to clear navbar */
-    padding: 0 1rem;
-}
-
-.resume-image1 {
-    flex: 1;                  /* takes available space */
-    min-width: 200px;
-    margin: 120px auto 2rem;
-    text-align: center;
-}
-
-.resume-image1 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
+/* The resume card – single column */
 .resume-card {
-    flex: 2;                  /* takes twice the space of the image */
+    max-width: 900px;          /* comfortable reading width */
+    width: 90%;                /* responsive, not too narrow on small screens */
+    margin: 120px auto 2rem;   /* clears fixed navbar */
     background: rgba(255, 255, 255, 0.95);
     padding: 2rem;
     border-radius: 1rem;
-    text-align: left;         /* left‑aligned text for resume */
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    text-align: left;          /* text left‑aligned like the example */
 }
 
-/* For smaller screens, stack vertically */
-@media (max-width: 768px) {
-    .resume-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .resume-image, .resume-card {
-        width: 100%;
-    }
-}
-.resume-name {
-    font-size: 1.5rem;
-    line-height: 1.4;
+/* Image inside the card – centered */
+.resume-image {
+    text-align: center;
     margin-bottom: 2rem;
-    color: #333;
+}
+
+.resume-image img {
+    max-width: 200px;          /* adjust to your preference */
+    width: 100%;
+    height: auto;
+    border-radius: 50%;        /* makes it round, optional */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Headings and text spacing */
+.resume-card h1 {
+    text-align: center;        /* optionally center the main heading */
+    margin-bottom: 1rem;
+}
+
+.resume-card h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #0077b6;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 0.3rem;
+}
+
+.resume-card p, .resume-card ul {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Make the card stack nicely on very small screens */
+@media (max-width: 600px) {
+    .resume-card {
+        width: 95%;
+        padding: 1.5rem;
+        margin-top: 100px;      /* adjust if needed */
+    }
 }
