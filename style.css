@@ -153,13 +153,12 @@ hr {
     gap: 0;                /* space between the boxes */
     width: 100%;              /* full width of parent */
     max-width: 100%;        /* optional: limits on very large screens */
-    margin: 69px;  /* clears fixed navbar */
+    margin: 69px auto 0;  /* clears fixed navbar */
     padding: 0;          /* adds some breathing room on sides */
     box-sizing: border-box;
     border: 2px solid red;
     background: red;
     height: 700px;   /* fixed height – content may overflow */
-    line-height: 0;
 }
 
 .image-container img {
@@ -179,6 +178,7 @@ hr {
     grid-template-columns: repeat(5, 1fr);
     gap: 0;
     margin: 0; /* clear fixed navbar */
+
     width: 100%;
     max-width: 100%;
 }
