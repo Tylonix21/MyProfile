@@ -348,13 +348,18 @@ hr {
     .resume-container {
         width: 100%;
         max-width: 100%;
-        padding: 0 1rem;      /* keep a little breathing room on edges */
-        margin: 80px auto 2rem; /* adjust top margin to clear navbar */
+        margin: 80px 0 2rem;  /* no left/right margin */
+        padding: 0;           /* remove any side padding */
     }
     .resume-image, .resume-card {
         width: 100%;
+        border-radius: 0;     /* optional: remove rounding on edges for full width */
+    }
+    body {
+        padding: 0;
     }
 }
+
 @media (max-width: 600px) {
     .resume-name {
         font-size: 1.2rem;
