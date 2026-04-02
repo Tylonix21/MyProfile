@@ -157,6 +157,7 @@ hr {
     padding: 0 2rem;          /* adds some breathing room on sides */
     box-sizing: border-box;
     border: 2px solid red;
+    background: red;
     height: 700px;   /* fixed height – content may overflow */
 }
 
