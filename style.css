@@ -90,7 +90,7 @@ hr {
 /* Card */
 .card {
     background: rgba(255, 255, 255, 0.95);
-    max-width: 60%;
+    max-width: 40%;
     width: 100%;
     margin: 80px auto 2rem; /* top margin to clear fixed navbar */
     padding: 2rem;
@@ -283,6 +283,7 @@ hr {
 
 .resume-name {
     text-decoration: none;
+    white-space: nowrap;
     color: #646464;
     font-weight: 300;
     font-size: 1.5rem;  
@@ -321,4 +322,13 @@ hr {
     .resume-image, .resume-card {
         width: 100%;
     }
+}
+@media (max-width: 600px) {
+    .resume-name {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0.5rem;
+
+    }
+    
 }
