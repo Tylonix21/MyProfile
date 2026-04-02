@@ -146,7 +146,7 @@ h1 {
 
 /* The resume card – single column */
 .resume-card {
-    max-width: 100%;          /* comfortable reading width */
+    max-width: 80%;          /* comfortable reading width */
     width: 90%;                /* responsive, not too narrow on small screens */
     margin: 120px auto 2rem;   /* clears fixed navbar */
     background: rgba(255, 255, 255, 0.95);
