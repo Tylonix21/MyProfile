@@ -150,8 +150,9 @@ hr {
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     transition: 0.3s;
-    color: #5f0909;
+    color: #7e0a0a;
     background: transparent;
+    font-size: 1.3rem;
 }
 .redbtn:hover {
     color: rgb(255, 0, 0);
