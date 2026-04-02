@@ -32,6 +32,10 @@ hr {
     margin: 0.1rem 0 0.1rem 0;
 }
 
+.highlight-word {
+    color: #6d6c6c;
+    font-weight: bold;
+}
 /* Navbar */
 .navbar {
     background: rgba(0, 0, 0, 0.95);
