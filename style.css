@@ -146,7 +146,7 @@ hr {
     background: rgba(255, 255, 255, 0.95);
     max-width: 40%;
     width: 100%;
-    margin: 80px auto 0; /* top margin to clear fixed navbar */
+    margin: 20px auto 0; /* top margin to clear fixed navbar */
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 20px 35px rgb(255, 253, 253);
@@ -176,7 +176,7 @@ hr {
     margin-right: auto;
     display: block;
     text-align: center;   /* keeps button text centered */
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 .tagline {
     font-size: 1.2rem;
