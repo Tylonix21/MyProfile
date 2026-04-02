@@ -6,12 +6,16 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    font-weight: 300;
     background: url('images/background.jpg') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column; /* stack navbar and card vertically */
 }
 
+h1, h2, h3, .navbar a, .btn {
+    font-weight: 400;
+}
 /* Navbar */
 .navbar {
     background: rgba(0, 0, 0, 0.95);
@@ -75,16 +79,6 @@ body {
     text-align: center;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 0.5rem;    
-}
 .tagline {
     font-size: 1.2rem;
     color: #555;
@@ -186,7 +180,7 @@ h2 {
 .resume-name {
     text-decoration: none;
     color: #646464;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5rem;  
     margin: 2rem;  
 }
