@@ -7,6 +7,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    color: #646464;
     background: url('images/background.jpg') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
@@ -15,6 +16,7 @@ body {
 
 h1, h2, h3, .navbar a, .btn {
     font-weight: 400;
+    color: #646464;
 }
 /* Navbar */
 .navbar {
@@ -190,7 +192,7 @@ h1, h2, h3, .navbar a, .btn {
     background: rgba(255, 255, 255, 0.95);
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 35px rgb(255, 255, 255);
     text-align: left;         /* text left‑aligned for resume */
 }
 
