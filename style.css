@@ -145,6 +145,29 @@ hr {
     color: white;
 }
 
+.image-container {
+    display: flex;
+    flex-wrap: wrap;          /* allows stacking on small screens */
+    justify-content: center;
+    align-items: stretch;     /* makes both boxes equal height */
+    gap: 2rem;                /* space between the boxes */
+    width: 100%;              /* full width of parent */
+    max-width: 100%;        /* optional: limits on very large screens */
+    margin: 80px auto 2rem;  /* clears fixed navbar */
+    padding: 0 2rem;          /* adds some breathing room on sides */
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 2rem;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     .navbar {
