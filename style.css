@@ -145,10 +145,21 @@ hr {
     color: white;
 }
 
-.redbtn {
-    background: #ffffff;
-    color: rgb(255, 55, 55);
+.redbtn a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    transition: 0.3s;
 }
+
+.redbtn {
+    color: rgb(80, 15, 15);
+}
+
+.redbtn a:hover {
+    color: rgb(255, 0, 0);
+}
+
 .image-container {
     display: flex;
     flex-wrap: wrap;          /* allows stacking on small screens */
