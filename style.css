@@ -145,18 +145,15 @@ hr {
     color: white;
 }
 
-.redbtn a{
+.redbtn {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     transition: 0.3s;
+    color: #5f0909;
+    background: transparent;
 }
-
-.redbtn {
-    color: rgb(80, 15, 15);
-}
-
-.redbtn a:hover {
+.redbtn:hover {
     color: rgb(255, 0, 0);
 }
 
