@@ -92,10 +92,10 @@ hr {
     background: rgba(255, 255, 255, 0.95);
     max-width: 600px;
     width: 90%;
-    margin: 100px auto 2rem; /* top margin to clear fixed navbar */
+    margin: 80px auto 2rem; /* top margin to clear fixed navbar */
     padding: 2rem;
     border-radius: 1rem;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 35px rgb(255, 253, 253);
     text-align: center;
 }
 
