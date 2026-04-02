@@ -179,8 +179,8 @@ hr {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 0;
     margin: 120px auto 2rem; /* clear fixed navbar */
-    max-width: 1200px;
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
 }
 
 .gallery-grid a {
