@@ -227,19 +227,41 @@ hr {
 
 
 
-
-/* Responsive */
 @media (max-width: 600px) {
-    .navbar {
-        gap: 1rem;
-        padding: 0.75rem 1rem;
+    /* existing navbar, card, h1 rules... */
+    
+    body {
+        font-size: 14px;   /* base font smaller on mobile */
     }
+    
+    .tagline {
+        font-size: 1rem;
+    }
+    
+    .description {
+        font-size: 0.9rem;
+    }
+    
+    .redbtn {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .links a {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .profile-image {
+        width: 150px;
+        height: 150px;
+        margin-top: 2rem;
+    }
+    
     .card {
-        margin-top: 80px;
-        padding: 1.5rem;
-    }
-    h1 {
-        font-size: 1.5rem;
+        max-width: 90%;
+        margin: 20px auto 0;
+        padding: 1rem;
     }
 }
 @media (max-width: 800px) {
@@ -335,8 +357,14 @@ hr {
 @media (max-width: 600px) {
     .resume-name {
         font-size: 1.2rem;
+        white-space: normal;   /* allow wrapping on phones */
         text-align: center;
         margin: 0.5rem;
     }
-    
+    .resume-email {
+        font-size: 0.85rem;
+    }
+    .resume-card p, .resume-card li {
+        font-size: 0.9rem;
+    }
 }
