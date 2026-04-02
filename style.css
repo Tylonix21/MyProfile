@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #646464;
     background: url('images/background.jpg') no-repeat center center/cover;
     min-height: 100vh;
@@ -15,8 +15,19 @@ body {
 }
 
 h1, h2, h3, .navbar a, .btn {
-    font-weight: 400;
+    font-weight: 200;
     color: #646464;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #646464;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.space {
+    margin-top: 1rem;
 }
 /* Navbar */
 .navbar {
