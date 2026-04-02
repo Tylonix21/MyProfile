@@ -149,7 +149,7 @@ h1 {
     flex-wrap: wrap;          /* allows stacking on small screens */
     justify-content: center;
     align-items: flex-start;  /* align tops */
-    gap: 2rem;                /* space between image and card */
+    gap: 10rem;                /* space between image and card */
     max-width: 1200px;
     margin: 120px auto 2rem;  /* same top margin as before to clear navbar */
     padding: 0 1rem;
