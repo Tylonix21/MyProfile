@@ -346,9 +346,10 @@ hr {
 /* Responsive: stack on small screens */
 @media (max-width: 768px) {
     .resume-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 1rem;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 1rem;      /* keep a little breathing room on edges */
+        margin: 80px auto 2rem; /* adjust top margin to clear navbar */
     }
     .resume-image, .resume-card {
         width: 100%;
