@@ -143,57 +143,61 @@ h1 {
 
 
 /* --------------Resume----------------*/
-
-/* The resume card – single column */
-.resume-card {
-    max-width: 70%;          /* comfortable reading width */
-    width: 90%;                /* responsive, not too narrow on small screens */
-    margin: 120px auto 2rem;   /* clears fixed navbar */
-    background: rgba(255, 255, 255, 0.95);
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 20px 35px rgb(255, 255, 255);
-    text-align: left;          /* text left‑aligned like the example */
+/* Container – full width, side‑by‑side layout */
+.resume-container {
+    display: flex;
+    flex-wrap: wrap;          /* allows stacking on small screens */
+    justify-content: center;
+    align-items: stretch;     /* makes both boxes equal height */
+    gap: 2rem;                /* space between the boxes */
+    width: 90%;              /* full width of parent */
+    max-width: 70%;        /* optional: limits on very large screens */
+    margin: 120px auto 2rem;  /* clears fixed navbar */
+    padding: 0 2rem;          /* adds some breathing room on sides */
+    box-sizing: border-box;
 }
 
-/* Image inside the card – centered */
+/* Left box – image container */
 .resume-image {
-    text-align: center;
-    margin-bottom: 2rem;
+    flex: 1;                  /* takes 1 share of available space */
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 1rem;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .resume-image img {
-    max-width: 200px;          /* adjust to your preference */
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 50%;        /* makes it round, optional */
+    border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Headings and text spacing */
-.resume-card h1 {
-    text-align: center;        /* optionally center the main heading */
-    margin-bottom: 1rem;
+/* Right box – resume card */
+.resume-card {
+    flex: 2;                  /* takes 2 shares of available space (twice as wide as image) */
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    text-align: left;         /* text left‑aligned for resume */
 }
 
-.resume-card h2 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-    color: #0077b6;
-    border-bottom: 2px solid #0077b6;
-    padding-bottom: 0.3rem;
-}
+/* Optional: if you want equal width, set both to flex: 1 */
+/* .resume-image, .resume-card { flex: 1; } */
 
-.resume-card p, .resume-card ul {
-    line-height: 1.6;
-    margin-bottom: 1rem;
-}
-
-/* Make the card stack nicely on very small screens */
-@media (max-width: 600px) {
-    .resume-card {
-        width: 95%;
-        padding: 1.5rem;
-        margin-top: 100px;      /* adjust if needed */
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    .resume-image, .resume-card {
+        width: 100%;
     }
 }
