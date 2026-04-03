@@ -203,6 +203,14 @@ hr {
     color: #646464;
     font-weight: 300;
     font-size: 1.5rem;  
+    margin: 1.5rem;  
+}
+
+.resume-email {
+    text-decoration: none;
+    color: #252525;
+    font-weight: 300;
+    font-size: 0.5rem;  
     margin: 2rem;  
 }
 /* Right box – resume card */
