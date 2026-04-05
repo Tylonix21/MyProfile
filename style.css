@@ -440,7 +440,7 @@ hr {
 }
 
 .project-card {
-    background: #1e2a3a;        /* optional: card background */
+    background: #000000;        /* optional: card background */
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 0.2s ease;
@@ -479,7 +479,9 @@ hr {
     transition: opacity 0.3s ease;
     pointer-events: none;    /* allows clicking through to the link */
 }
-
+.project-card:hover h3 {
+    bottom: 0;
+}
 /* Hide cards that don't match the filter */
 .project-card.hide {
     display: none;
