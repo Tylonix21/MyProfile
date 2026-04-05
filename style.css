@@ -272,6 +272,9 @@ hr {
         margin: 20px auto 0;
         padding: 1rem;
     }
+    .space {
+        margin-top: 1rem;
+    }
 }
 @media (max-width: 800px) {
     .gallery-grid {
