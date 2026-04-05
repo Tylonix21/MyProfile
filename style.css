@@ -494,6 +494,12 @@ hr {
 
 
 /* === trackerpage === */
+
+.tracker-title{
+    text-align: center;
+    margin: 140px auto 0;  
+    max-width: 50%;
+}
 .info-container{
     display: flex;
     flex-wrap: wrap;          /* allows stacking on small screens */
@@ -518,9 +524,10 @@ hr {
     justify-content: flex-start;
     align-items: center;
 }
-.info-text{
+.tracker-info{
+    flex:2;
+    background: #252525;
     text-decoration: none;
-    white-space: nowrap;
     margin: 1rem;     
 }
  /*=== ALL THE VARIABLES/COLORS/SIZES ===
