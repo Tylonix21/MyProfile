@@ -83,12 +83,28 @@
     <!-- ============= Do not touch Navbar Above ============-->
 
     <div class = "project-text">
-        <h2> Stock Portfolio Tracker | Python, yfinance, Pandas, Matplotlib, Flask   </h2>
+        <h2> <span class = "highlight-word">Stock Portfolio Tracker</span> | Python, yfinance, Pandas, Matplotlib, Flask   </h2>
         <p>____________</p>
-        <p> Built a CLI tool that fetches real-time stock prices and calculates portfolio value & daily P&L.  </p>
-        <p>Integrated yfinance API to retrieve live market data; handled errors and missing data gracefully.</p> 
-        <p>Generated automatic pie‑chart visualizations of portfolio composition using Matplotlib.</p>
-        
+        <p> A command-line tool that fetches real-time stock prices, calculates portfolio value and profit/loss, and generates a pie chart of asset allocation. Demonstrates API integration, data processing, and visualization.  </p>
+    
+    </div>
+
+    <div class = "info-container">
+        <div class = "image-tracker">
+            <img src="images/tracker.png" alt="trck">
+        </div>
+        <div class = 'info-text'>
+            <h2> Key Features</h2>
+            <ul>
+                <li>Fetches live stock prices using the yFinance API (no API key required)</li>
+                <li>Reads user holdings from a CSV file (symbol, shares, purchase price) </li>
+                <li>Calculates total portfolio value, daily change, and unrealized gain/loss  </li>
+                <li>Displays a formatted report in the terminal  </li>
+                <li>Generates a pie chart with Matplotlib showing allocation with live prices per share  </li>
+                <li>Handles errors (invalid symbols, missing files, API failures)  </li>
+            </ul>
+            
+        </div>
     </div>
 
     <!-- ============= Do not touch footer below ============-->    
