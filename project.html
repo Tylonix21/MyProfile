@@ -14,12 +14,49 @@
         }
 
         body {
-            background: #0D1117;
+            background: #0e151f;
             color: #e6edf3;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
+        .navbar {
+            background: #0e151f;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #000000;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar .name {
+            color: #e6edf3;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+
+        .name .top-name {
+            text-align: center;  
+        }
+
+        .name .bottom-name {
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .navbar .highlight {
+            color: #00a6ff;
+            font-size: 1rem;   /* make it slightly larger */
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+        
     </style> 
 </head>
 
