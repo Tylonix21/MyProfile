@@ -97,7 +97,42 @@
         <button class="filter-btn" data-filter="ai"> AI </button>
     </div>
 
+    <div class="gallery-grid" id="projectGrid">
+    <!-- Example items – repeat for each project -->
+        <div class="project-card" data-category="roblox">
+            <a href="https://www.roblox.com/games/117382858026861/Humanoid-Factory-Obby" target="_blank">
+                <img src="images/roblox_obby.png" alt="Roblox Game">
+            </a>
+            <h3>Humanoid Obby</h3>
+        </div>
+        <div class="project-card" data-category="roblox">
+            <a href="https://example.com/project1" target="_blank">
+                <img src="roblox_teambattle.png" alt="Roblox Game">
+            </a>
+            <h3>Team Battle</h3>
+        </div>
+        <div class="project-card" data-category="roblox">
+            <a href="https://www.roblox.com/games/88642755475666/Learn-Mandarin" target="_blank">
+                <img src="images/roblox_mandarin.png" alt="Roblox Game">
+            </a>
+            <h3>Learn Mandarin</h3>
+        </div>
 
+
+        <div class="project-card" data-category="python">
+            <a href="https://www.roblox.com/games/74948806215137/TeamBattle" target="_blank">
+                <img src="images/roblox_teambattle.png" alt="Python App">
+            </a>
+            <h3>Team Battle</h3>
+        </div>
+
+        <div class="project-card" data-category="rendering">
+            <a href="#" target="_blank">
+                <img src="images/render1.jpg" alt="3D Render">
+            </a>
+            <h3>Mountain Scene</h3>
+        </div>
+    </div>
 
     <!-- ============= Do not touch footer below ============-->    
     <footer class="bottom-bar">    
@@ -105,6 +140,42 @@
         <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
     </footer>
 
+
+
+
+
+    <script>
+        // Get all filter buttons and all project cards
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+
+        // Loop through each button and add a click event
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove 'active' class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add 'active' class to the clicked button
+                button.classList.add('active');
+
+                // Get the filter value from data-filter attribute
+                const filterValue = button.getAttribute('data-filter');
+
+                // Show/hide cards based on filter
+                projectCards.forEach(card => {
+                    if (filterValue === 'all') {
+                        card.classList.remove('hide');
+                    } else {
+                        const cardCategory = card.getAttribute('data-category');
+                        if (cardCategory === filterValue) {
+                            card.classList.remove('hide');
+                        } else {
+                            card.classList.add('hide');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
