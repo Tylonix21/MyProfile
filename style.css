@@ -377,6 +377,19 @@ hr {
     }
 }
 
+
+/* === ProjectPage === */
+.project-text{
+    text-align: center;
+    margin: 140px auto 0;
+}
+
+
+
+
+
+
+
 .bottom-bar{
     background-color: #252525;
     color: white;
@@ -395,6 +408,8 @@ hr {
     5. Navbar = rgba(0, 0, 0, 0.95)
     6. Bottom Bar = 252525
     7. Nav Name = fff
-
+    -- Project -- 
+    1. background color - 0D1117
+    2. Text - e6edf3
 
  */
