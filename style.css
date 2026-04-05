@@ -425,12 +425,7 @@ hr {
 
 }
 
-.bottom-bar{
-    background-color: #252525;
-    color: white;
-    text-align: center;
-    padding: 2rem;
-}
+
 
 
 .gallery-grid{
@@ -510,3 +505,11 @@ hr {
     2. Text - e6edf3
 
  */
+
+ .bottom-bar{
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;   
+}
