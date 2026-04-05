@@ -448,6 +448,9 @@ hr {
 
 .project-card:hover {
     transform: translateY(-5px);
+    transform: scale(1.02); /* slight zoom on hover */
+    opacity: 0.4;
+
 }
 
 .project-card a {
@@ -462,10 +465,19 @@ hr {
     display: block;
 }
 .project-card h3 {
-    margin: 0.8rem;
-    font-size: 1rem;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.7); 
+    color: white;
     text-align: center;
-    color: #e6edf3;
+    padding: 0.8rem;
+    margin: 0;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;    /* allows clicking through to the link */
 }
 
 /* Hide cards that don't match the filter */
