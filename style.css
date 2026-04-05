@@ -403,9 +403,10 @@ hr {
     border:transparent;
     color: #e6edf38f;
     padding: 0.5 rem 1rem;
-    row-gap: 2rem;
     cursor: pointer;
     transition: 0.3s;
+    margin: 0 2rem;   /* left and right margin */
+}
 }
 .filter-btn:hover,
 .filter-btn.active {
