@@ -536,6 +536,10 @@ hr {
     text-decoration: none;
     margin: 1rem;     
 }
+
+.tracker-info li{
+    margin-bottom: 0.75rem;
+}
  /*=== ALL THE VARIABLES/COLORS/SIZES ===
  
  --- COLOR ---
