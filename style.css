@@ -410,14 +410,15 @@ hr {
 
 .filter-btn:not(:last-child)::after {
     content: " / ";
-    margin-left: 2rem;
+    margin: 0 1rem;
+    
     color: #666;
 }
 
 .filter-btn:hover,
 .filter-btn.active {
     background: transparent;
-    color: #ffffffa8;
+    color: #ffffffcb;
 
 }
 
