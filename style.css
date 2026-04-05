@@ -139,8 +139,10 @@ hr {
 
 .gallery-grid img:hover {
     transform: scale(1.02); /* slight zoom on hover */
-    opacity: 0.9; /* slight fade on hover */
+    opacity: 0.4; /* slight fade on hover */
 }
+
+
 /* Card */
 .card {
     background: rgba(255, 255, 255, 0.95);
