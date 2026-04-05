@@ -440,7 +440,8 @@ hr {
 }
 
 .project-card {
-    background: #000000;        /* optional: card background */
+    position: relative;
+    background: #0e151f;        /* optional: card background */
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 0.2s ease;
