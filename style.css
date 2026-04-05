@@ -362,7 +362,6 @@ hr {
         padding: 0;
     }
 }
-
 @media (max-width: 600px) {
     .resume-name {
         font-size: 1.2rem;
@@ -376,4 +375,26 @@ hr {
     .resume-card p, .resume-card li {
         font-size: 0.9rem;
     }
+
+.bottom-bar{
+    background-color: #252525;
+    color: white;
+    text-align: center;
 }
+
+}
+
+
+ /*=== ALL THE VARIABLES/COLORS/SIZES ===
+ 
+ --- COLOR ---
+    1. index html text = 8b8b8b
+    2. index h1,h2,h3 text = 646464
+    3. Highlight color = 6d6c6c
+    4. Horizontal line = 8b8b8b
+    5. Navbar = rgba(0, 0, 0, 0.95)
+    6. Bottom Bar = 252525
+    7. Nav Name = fff
+    
+
+ */
