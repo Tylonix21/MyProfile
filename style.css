@@ -32,6 +32,9 @@ hr {
     margin: 0.1rem 0 0.1rem 0;
 }
 
+.space{
+    margin-top: 2rem;
+}
 .highlight-word {
     color: #6d6c6c;
     font-weight: bold;
@@ -499,6 +502,7 @@ hr {
     text-align: center;
     margin: 140px auto 0;  
     max-width: 50%;
+
 }
 .info-container{
     display: flex;
