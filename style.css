@@ -395,7 +395,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1 rem;
+    gap: 3 rem;
 }
 
 .filter-btn{
@@ -403,7 +403,7 @@ hr {
     border:transparent;
     color: #e6edf38f;
     padding: 0.5 rem 1rem;
-    border-radius:  2rem;
+    
     cursor: pointer;
     transition: 0.3s;
 }
