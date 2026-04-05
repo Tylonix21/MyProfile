@@ -391,17 +391,17 @@ hr {
 
 .filter-buttons{
     text-align: center;
-    margin: 120px auto 2rem;
+    margin: 36px auto 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.5 rem;
+    gap: 1 rem;
 }
 
 .filter-btn{
     background: transparent;
-    border: 1px solid #555;
-    color: #e6edf3;
+    border:transparent;
+    color: #e6edf38f;
     padding: 0.5 rem 1rem;
     border-radius:  2rem;
     cursor: pointer;
@@ -409,9 +409,9 @@ hr {
 }
 .filter-btn:hover,
 .filter-btn.active {
-    background: #fafafa;
-    color: #000;
-    border-color: #555;
+    background: transparent;
+    color: #ffffffa8;
+
 }
 
 .bottom-bar{
