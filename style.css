@@ -375,14 +375,13 @@ hr {
     .resume-card p, .resume-card li {
         font-size: 0.9rem;
     }
+}
 
 .bottom-bar{
     background-color: #252525;
     color: white;
     text-align: center;
     padding: 1rem;
-}
-
 }
 
 
