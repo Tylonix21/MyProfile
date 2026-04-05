@@ -516,8 +516,7 @@ hr {
 .image-tracker{
     flex: 1;                  /* takes 1 share of available space */
     background: rgba(255, 255, 255, 0.95);
-    border-radius: 1rem;
-    box-shadow: 0 20px 35px rgb(255, 255, 255);
+    box-shadow: 0 20px 35px rgb(0, 0, 0);
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -526,7 +525,7 @@ hr {
 }
 .tracker-info{
     flex:2;
-    background: #252525;
+    background: transparent;
     text-decoration: none;
     margin: 1rem;     
 }
