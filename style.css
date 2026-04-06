@@ -341,7 +341,7 @@ hr {
 }
 /* Right box – resume card */
 .resume-card {
-    flex: 2;                  /* takes 2 shares of available space (twice as wide as image) */
+    flex: 3;                  /* takes 2 shares of available space (twice as wide as image) */
     background: rgba(255, 255, 255, 0.95);
     padding: 2rem;
     border-radius: 1rem;
