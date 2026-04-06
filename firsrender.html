@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        h2,h1 {
+        color: #e6edf3;      /* any color you like */
+        font-weight: 250;     /* adjust size */
+        }
+
+        body {
+            background: #0e151f;
+            color: #e6edf3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-weight: 250
+        }
+        .navbar {
+            background: #0e151f;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #000000;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar .name {
+            color: #e6edf3;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+
+        .name .top-name {
+            text-align: center;  
+        }
+
+        .name .bottom-name {
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .navbar .highlight {
+            color: #00a6ff;
+            font-size: 1rem;   /* make it slightly larger */
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+        
+    </style> 
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class ="name">  
+            <div class = "top-name">
+                 <span class = "highlight">R</span>yelan  <span class = "highlight">C</span>arl
+            </div>
+
+            <div class = "bottom-name">
+                M. Alcala
+            </div>
+        </div>
+
+        <div class = "nav-links">
+            <a href="index.html">My Profile</a>
+            <a href="#projects">Projects</a>
+            <a href="resume.html">Resume</a>
+        </div>
+    </nav>
+    <!-- ============= Do not touch Navbar Above ============-->
+
+    <div class = "tracker-title">
+        <h2> Unrealistic Oblong Cat  </span> </h2>
+        <hr>
+        <p class = 'space'> A cat made from blender</p>
+    
+    </div>
+
+    <div class = "info-container">
+        <div class = "image-firstRender">
+            <img src="images/firstRender_cat.png" alt="trck">
+        </div>
+        <div class = 'firstRender-info'>
+            <h2> Description</h2>
+            <p>This is my first ever rendered 3d mesh. It is created to be able to have an animation just for jumping and blinking the eyes.</p><br>            
+        </div>
+    </div>
+    <img src="images/firstRender_blender.png" alt="blender">
+    
+    <!-- ============= Do not touch footer below ============-->    
+    <footer class="bottom-bar">    
+        <p>© <span id="year"></span> Ryelan Carl M. Alcala. All Rights Reserved.</p>
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </footer>
+</body>
+
+</html>

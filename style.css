@@ -541,6 +541,29 @@ hr {
     margin-top: 0.25rem;
     margin-bottom: 0.75rem;
 }
+
+
+/* === firstRender_cat === */
+.image-firstRender{
+    flex: 1;                  /* takes 1 share of available space */
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 20px 35px rgb(0, 0, 0);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.firstRender-info{
+    flex:3;
+    background: transparent;
+    text-decoration: none;
+    margin: 1rem;     
+}
+
+
+
  /*=== ALL THE VARIABLES/COLORS/SIZES ===
  
  --- COLOR ---
